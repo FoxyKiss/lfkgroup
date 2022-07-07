@@ -1,0 +1,276 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Muller', Arial, Helvetica, sans-serif;
+}
+
+.about-me {
+  max-width: 1280px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.info {
+  position: relative;
+  max-width: 1280px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-image: url(../../images/LAyer2.png);
+  background-repeat: round;
+  padding: 150px 0 0 50px;
+}
+
+.info__texts {
+  max-width: 550px;
+  width: 100%;
+  color: #647b8c;
+  margin-top: 50px;
+}
+
+.info__texts-title {
+  font-size: 49px;
+  margin: 0 0 20px 0;
+}
+
+.info__texts-text {
+  font-size: 27px;
+  margin: 0;
+}
+
+.info__texts-list {
+  max-width: 460px;
+  width: 100%;
+  list-style-type: none;
+  margin: 50px 0;
+  padding: 0;
+}
+
+.info__texts-list-item {
+  display: flex;
+  align-items: baseline;
+}
+
+.info__texts-list-text {
+  font-size: 27px;
+  font-weight: 500;
+  margin: 0 0 10px 0;
+}
+
+.list-marker {
+  max-width: 13px;
+  width: 100%;
+  background: url(../../images/dot.png);
+  background-repeat: no-repeat;
+  background-size: 10px;
+  padding: 5px 0;
+  margin-right: 10px;
+}
+
+.info__image {
+  max-width: 655px;
+  width: 100%;
+  min-height: 885px;
+  background-image: url(../../images/anna.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.info__image-shadow {
+  max-width: 655px;
+  width: 100%;
+  min-height: 885px;
+  background-image: url(../../images/anna-shadow.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 10px;
+}
+
+.info__ellipse {
+  max-width: 320px;
+  width: 100%;
+  padding: 160px 0;
+}
+
+.info__ellipse-about {
+  position: absolute;
+  top: -115px;
+  right: -150px;
+
+  background-image: url(../../images/ellipse.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.info__ellipse-quote {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-image: url(../../images/ellipse2.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.register {
+  position: relative;
+  max-width: 1280px;
+  width: 100%;
+  display: flex;
+  background-color: #647b8c;
+  padding: 70px 0;
+}
+
+.register__quote {
+  max-width: 1000px;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.register__quote-text {
+  font-size: 55px;
+  font-weight: 300;
+  font-style: normal;
+  color: #ffffff;
+}
+
+.info__square {
+  width: 100%;
+  background-color: #e7b698;
+  padding: 15px 0;
+}
+
+.info__square-top {
+  position: absolute;
+  top: -15px;
+  left: 0;
+  max-width: 160px;
+}
+
+.info__square-bottom {
+  position: absolute;
+  bottom: -15px;
+  right: 0;
+  max-width: 320px;
+}
+
+.buy {
+  position: relative;
+  max-width: 1280px;
+  width: 100%;
+  display: flex;
+  padding: 90px 0;
+}
+
+.buy__button {
+  max-width: 550px;
+  width: 100%;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 300;
+  line-height: 60px;
+  background-color: #647b8c;
+  color: #ffff;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.buy__square {
+  width: 100%;
+  background-color: #e7b698;
+  padding: 15px 0;
+}
+
+.buy__square-bottom {
+  position: absolute;
+  bottom: -15px;
+  left: 0;
+  max-width: 320px;
+}
+
+.footer {
+  position: relative;
+  max-width: 1280px;
+  width: 100%;
+  background-color: #647b8c;
+  overflow: hidden;
+  padding: 90px 130px;
+}
+
+.footer__contacts {
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  color: #ffff;
+}
+
+.footer__contacts-title {
+  font-size: 40px;
+  font-weight: 300;
+  margin: 0;
+}
+
+.footer__contacts-subtitle {
+  font-size: 22px;
+  font-weight: 300;
+  margin: 0;
+}
+
+.footer__contacts-link {
+  color: #ffff;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.footer__contacts-link:hover {
+  opacity: 0.5;
+}
+
+.footer__ellipse {
+  position: absolute;
+  top: 160px;
+  left: -50px;
+  max-width: 320px;
+  width: 100%;
+  padding: 160px 0;
+  background-image: url(../../images/ellipse3.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.footer__social {
+  max-width: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+}
+
+.footer__social-link {
+  display: block;
+  max-width: 100px;
+  width: 100%;
+  padding: 50px 0;
+  z-index: 1;
+}
+
+.whatsapp-link {
+  background-image: url(../../images//whatsapp.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.instagram-link {
+  background-image: url(../../images/instagram.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
