@@ -1,0 +1,87 @@
+.team {
+  max-width: 1280px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.team__list {
+  max-width: 1280px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+
+.team__list-item {
+  position: relative;
+  max-width: 1280px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 26px solid #647b8c;
+  padding: 90px 50px;
+}
+
+.team__info {
+  max-width: 550px;
+  width: 100%;
+  color: #647b8c;
+}
+
+.team__info-title {
+  font-size: 45px;
+  margin: 0 0 10px 0;
+}
+
+.team__info-subtitle {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 0 0 15px 0;
+}
+
+.team__info-description {
+  margin-top: 25px;
+  padding-left: 10px;
+}
+
+.team__info-text {
+  font-size: 20px;
+  font-weight: 300;
+  margin: 0 0 15px 0;
+}
+
+.team__image {
+  max-width: 250px;
+  width: 100%;
+  max-height: 350px;
+  object-fit: contain;
+  border: 7px solid #647b8c;
+  margin-top: 20px;
+}
+
+
+.team__list-item_color_purple {
+  background-image: url(../images/purple.png);
+  background-size: contain;
+
+}
+
+.team__list-item_color_green {
+  background-image: url(../images/green.png);
+  background-size: contain;
+  z-index: -1;
+}
+
+.team__list-item_color_yellow {
+  background-image: url(../images/yellow.png);
+  background-size: contain;
+  z-index: -2;
+}
+
+.team__list-item_color_pink {
+  background-image: url(../images/pink.png);
+  background-size: contain;
+  z-index: -3;
+}
