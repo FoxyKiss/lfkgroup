@@ -4,6 +4,12 @@
   width: 100%;
 }
 
+@media screen and (min-width: 1281px) {
+  .price {
+    max-width: 1920px;
+  }
+}
+
 .price__container {
   position: relative;
   width: 100%;
