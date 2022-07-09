@@ -1,0 +1,52 @@
+.price {
+  position: relative;
+  max-width: 1280px;
+  width: 100%;
+}
+
+.price__container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background: url(../images/layer.png);
+  background-size: cover;
+  border-bottom: 26px solid #647b8c;
+  padding: 90px 50px;
+}
+
+.price__container-list {
+  max-width: 700px !important;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 27px;
+}
+
+.price__container-list-item {
+  max-width: 700px;
+  width: 100%;
+}
+
+.price-ellipse {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  max-width: 120px;
+  width: 100%;
+  padding: 160px 0;
+  background-image: url(../images/blue-ellipse.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.price__square {
+  position: absolute;
+  top: 22%;
+  right: 150px;
+  max-width: 70px;
+  width: 100%;
+  min-height: 70px;
+  background-color: #647b8c;
+  margin: 0 20px 0 0;
+}

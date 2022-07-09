@@ -5,8 +5,13 @@
   flex-direction: column;
 }
 
+@media screen and (min-width: 1281px) {
+  .team {
+    max-width: 1920px;
+  }
+}
+
 .team__list {
-  max-width: 1280px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -16,7 +21,6 @@
 
 .team__list-item {
   position: relative;
-  max-width: 1280px;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -24,10 +28,17 @@
   padding: 90px 50px;
 }
 
+
 .team__info {
   max-width: 550px;
   width: 100%;
   color: #647b8c;
+}
+
+@media screen and (min-width: 1281px) {
+  .team__info {
+    max-width: 900px;
+  }
 }
 
 .team__info-title {
@@ -35,10 +46,22 @@
   margin: 0 0 10px 0;
 }
 
+@media screen and (min-width: 1281px) {
+  .team__info-title {
+    font-size: 57px;
+  }
+}
+
 .team__info-subtitle {
   font-size: 25px;
   font-weight: 500;
   margin: 0 0 15px 0;
+}
+
+@media screen and (min-width: 1281px) {
+  .team__info-subtitle {
+    font-size: 32px;
+  }
 }
 
 .team__info-description {
@@ -52,6 +75,12 @@
   margin: 0 0 15px 0;
 }
 
+@media screen and (min-width: 1281px) {
+  .team__info-text {
+    font-size: 27px;
+  }
+}
+
 .team__image {
   max-width: 250px;
   width: 100%;
@@ -61,27 +90,34 @@
   margin-top: 20px;
 }
 
+@media screen and (min-width: 1281px) {
+  .team__image {
+    max-width: 450px;
+    max-height: 550px;
+  }
+}
+
 
 .team__list-item_color_purple {
   background-image: url(../images/purple.png);
-  background-size: contain;
+  background-size: cover;
 
 }
 
 .team__list-item_color_green {
   background-image: url(../images/green.png);
-  background-size: contain;
+  background-size: cover;
   z-index: -1;
 }
 
 .team__list-item_color_yellow {
   background-image: url(../images/yellow.png);
-  background-size: contain;
+  background-size: cover;
   z-index: -2;
 }
 
 .team__list-item_color_pink {
   background-image: url(../images/pink.png);
-  background-size: contain;
+  background-size: cover;
   z-index: -3;
 }
