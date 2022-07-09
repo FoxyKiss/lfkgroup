@@ -1,6 +1,7 @@
 @import url(./vendor/normalize.css);
 @import url(./vendor/fonts/stylesheet.css);
 @import url(./styles/team.css);
+@import url(./styles/price.css);
 
 .page {
   position: relative;
@@ -31,7 +32,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-image: url(../../images/LAyer2.png);
+  background-image: url(../../images/layer.png);
   background-repeat: round;
   padding: 150px 0 0 50px;
 }
@@ -62,6 +63,7 @@
 .info__texts-list {
   max-width: 460px;
   width: 100%;
+  color: #647b8c;
   list-style-type: none;
   margin: 50px 0;
   padding: 0;
@@ -199,6 +201,14 @@
   padding: 13px 0;
 }
 
+.info__square-center {
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  max-width: 80px;
+  padding: 10px 0;
+}
+
 .buy {
   position: relative;
   max-width: 1280px;
@@ -216,9 +226,15 @@
   font-weight: 300;
   line-height: 60px;
   background-color: #647b8c;
+  text-decoration: none;
   color: #ffff;
   cursor: pointer;
   margin: 0 auto;
+  transition: 0.5s;
+}
+
+.buy__button:hover {
+  color: #a1a195
 }
 
 .buy__square {
@@ -277,6 +293,8 @@
   transition: 0.5s;
 }
 
+
+
 .footer__contacts-link:hover {
   opacity: 0.5;
 }
@@ -307,6 +325,11 @@
   width: 100%;
   padding: 50px 0;
   z-index: 1;
+  transition: 0.5s;
+}
+
+.footer__social-link:hover {
+  opacity: 0.7;
 }
 
 .whatsapp-link {
