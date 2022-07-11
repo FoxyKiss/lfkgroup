@@ -9,6 +9,77 @@
   flex-direction: column;
   align-items: center;
   font-family: 'Muller', Arial, Helvetica, sans-serif;
+  overflow: hidden;
+}
+
+.header {
+  width: 100%;
+  background: #e7b698;
+  background-size: contain;
+  padding: 30px 0 10px 0;
+}
+
+.header__links {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header__border {
+  max-width: 30px;
+  width: 100%;
+  min-height: 30px;
+  background-color: #e7b698;
+  background-image: linear-gradient(to bottom right, transparent 45%, #fff, transparent 54%);
+  background-repeat: no-repeat;
+  font-size: 50px;
+  text-align: center;
+  color: #ffff00;
+}
+
+.header__links-item {
+  text-align: center;
+}
+
+
+.header__link {
+  font-size: 35px;
+  text-decoration: none;
+  cursor: pointer;
+  color: #647b8c;
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 910px) {
+  .header__link {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .header__link {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .header__link {
+    font-size: 15px;
+  }
+}
+
+
+.header__link:hover {
+  opacity: 0.7;
+}
+
+.header__link-active {
+  font-weight: 900;
+  border-bottom: 3px solid #647b8c;
 }
 
 .about-me {
@@ -182,6 +253,13 @@
   }
 }
 
+@media screen and (max-width: 620px) {
+  .info__image {
+    max-width: 300px;
+    min-height: 400px;
+  }
+}
+
 
 .info__image-shadow {
   max-width: 655px;
@@ -190,16 +268,17 @@
   background-image: url(../../images/anna-shadow.png);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: 10px;
+  background-position: 30px;
 }
 
 @media screen and (max-width: 1024px) {
   .info__image-shadow {
     max-width: 400px;
     min-height: 700px;
-    background-position: bottom;
+    background-position: -12px;
   }
 }
+
 
 @media screen and (max-width: 768px) {
   .info__image-shadow {
@@ -207,6 +286,16 @@
     min-height: 600px;
   }
 }
+
+@media screen and (max-width: 620px) {
+  .info__image-shadow {
+    max-width: 300px;
+    min-height: 400px;
+    background-position: 30px;
+    margin-top: 20px;
+  }
+}
+
 
 
 
