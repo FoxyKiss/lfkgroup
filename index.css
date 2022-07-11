@@ -1,7 +1,7 @@
 @import url(./vendor/normalize.css);
 @import url(./vendor/fonts/stylesheet.css);
-@import url(./styles/team.css);
-@import url(./styles/price.css);
+@import url(./styles/team.css?1);
+@import url(./styles/price.css/1);
 
 .page {
   position: relative;
