@@ -43,11 +43,32 @@
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .info {
+    align-items: flex-end;
+    padding-left: 30px;
+  }
+}
+
 .info__texts {
   max-width: 550px;
   width: 100%;
   color: #647b8c;
   margin-top: 50px;
+  margin-right: 50px;
+}
+
+@media screen and (max-width: 1024px) {
+  .info__texts {
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .info__texts {
+    max-width: 500px;
+    margin-right: 0;
+  }
 }
 
 .info__texts-title {
@@ -55,9 +76,21 @@
   margin: 0 0 20px 0;
 }
 
+@media screen and (max-width: 1024px) {
+  .info__texts-title {
+    font-size: 39px;
+  }
+}
+
 .info__texts-text {
   font-size: 27px;
   margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .info__texts-text {
+    font-size: 22px;
+  }
 }
 
 .info__texts-list {
@@ -69,6 +102,8 @@
   padding: 0;
 }
 
+
+
 .info__texts-list-item {
   display: flex;
   align-items: baseline;
@@ -78,6 +113,12 @@
   font-size: 27px;
   font-weight: 500;
   margin: 0 0 10px 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .info__texts-list-text {
+    font-size: 22px;
+  }
 }
 
 .list-marker {
@@ -100,6 +141,22 @@
   background-position: center;
 }
 
+@media screen and (max-width: 1024px) {
+  .info__image {
+    max-width: 400px;
+    min-height: 700px;
+    background-position: bottom;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .info__image {
+    max-width: 300px;
+    min-height: 600px;
+  }
+}
+
+
 .info__image-shadow {
   max-width: 655px;
   width: 100%;
@@ -109,6 +166,23 @@
   background-repeat: no-repeat;
   background-position: 10px;
 }
+
+@media screen and (max-width: 1024px) {
+  .info__image-shadow {
+    max-width: 400px;
+    min-height: 700px;
+    background-position: bottom;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .info__image-shadow {
+    max-width: 300px;
+    min-height: 600px;
+  }
+}
+
+
 
 .info__ellipse {
   max-width: 320px;
@@ -154,8 +228,16 @@
   max-width: 1000px;
   width: 100%;
   display: flex;
+  justify-content: center;
   text-align: center;
+  overflow: hidden;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .register__quote {
+    max-width: 620px;
+  }
 }
 
 .register__quote-text {
@@ -163,6 +245,12 @@
   font-weight: 300;
   font-style: normal;
   color: #ffffff;
+}
+
+@media screen and (max-width: 1281px) {
+  .register__quote-text {
+    font-size: 35px;
+  }
 }
 
 .info__square {
@@ -312,10 +400,10 @@
 }
 
 .footer__social {
-  max-width: 300px;
+  max-width: 600px;
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  gap: 30px;
   padding: 20px 0;
 }
 
