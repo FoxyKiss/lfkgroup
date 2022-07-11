@@ -50,6 +50,14 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .info {
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 0 20px;
+  }
+}
+
 .info__texts {
   max-width: 550px;
   width: 100%;
@@ -82,6 +90,12 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .info__texts-title {
+    text-align: center;
+  }
+}
+
 .info__texts-text {
   font-size: 27px;
   margin: 0;
@@ -90,6 +104,12 @@
 @media screen and (max-width: 1024px) {
   .info__texts-text {
     font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .info__texts-text {
+    text-align: center;
   }
 }
 
@@ -118,6 +138,12 @@
 @media screen and (max-width: 1024px) {
   .info__texts-list-text {
     font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .info__texts-list-text {
+    font-size: 15px;
   }
 }
 
@@ -190,6 +216,12 @@
   padding: 160px 0;
 }
 
+@media screen and (max-width: 768px) {
+  .info__ellipse {
+    padding: 120px 0;
+  }
+}
+
 .info__ellipse-about {
   position: absolute;
   top: -115px;
@@ -198,6 +230,12 @@
   background-image: url(../../images/ellipse.svg);
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+@media screen and (max-width: 768px) {
+  .info__ellipse-about {
+    right: -190px;
+  }
 }
 
 .info__ellipse-quote {
@@ -240,6 +278,12 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .register__quote {
+    max-width: 300px;
+  }
+}
+
 .register__quote-text {
   font-size: 55px;
   font-weight: 300;
@@ -247,9 +291,15 @@
   color: #ffffff;
 }
 
-@media screen and (max-width: 1281px) {
+@media screen and (max-width: 1024px) {
   .register__quote-text {
     font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .register__quote-text {
+    font-size: 20px;
   }
 }
 
@@ -297,6 +347,29 @@
   padding: 10px 0;
 }
 
+@media screen and (max-width: 768px) {
+  .info__square-right {
+    max-width: 130px;
+  }
+
+  .info__square-left {
+    max-width: 90px;
+  }
+
+  .info__square-bottom {
+    max-width: 130px;
+  }
+
+  .info__square-top {
+    max-width: 90px;
+  }
+
+  .info__square-center {
+    max-width: 25px;
+  }
+}
+
+
 .buy {
   position: relative;
   max-width: 1280px;
@@ -319,6 +392,13 @@
   cursor: pointer;
   margin: 0 auto;
   transition: 0.5s;
+}
+
+@media screen and (max-width: 768px) {
+  .buy__button {
+    max-width: 300px;
+    font-size: 20px;
+  }
 }
 
 .buy__button:hover {
@@ -353,6 +433,12 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .footer {
+    padding: 60px 60px;
+  }
+}
+
 .footer__contacts {
   max-width: 600px;
   width: 100%;
@@ -369,10 +455,22 @@
   margin: 0;
 }
 
+@media screen and (max-width: 768px) {
+  .footer__contacts-title {
+    font-size: 25px;
+  }
+}
+
 .footer__contacts-subtitle {
   font-size: 22px;
   font-weight: 300;
   margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__contacts-subtitle {
+    font-size: 15px;
+  }
 }
 
 .footer__contacts-link {
@@ -397,6 +495,13 @@
   background-image: url(./images/ellipse3.svg);
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+@media screen and (max-width: 600px) {
+  .footer__ellipse {
+    bottom: 0;
+    left: -90px;
+  }
 }
 
 .footer__social {
@@ -424,6 +529,12 @@
   background-image: url(./images//whatsapp.png);
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__social-link {
+    max-width: 50px;
+  }
 }
 
 .instagram-link {

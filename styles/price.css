@@ -21,6 +21,12 @@
   padding: 90px 50px;
 }
 
+@media screen and (max-width: 768px) {
+  .price__container {
+    padding: 30px;
+  }
+}
+
 .price__container-list {
   max-width: 700px !important;
   display: flex;
@@ -46,13 +52,26 @@
   background-size: cover;
 }
 
+@media screen and (max-width: 768px) {
+  .price-ellipse {
+    right: -55px;
+  }
+}
+
 .price__square {
   position: absolute;
   top: 22%;
   right: 150px;
-  max-width: 70px;
+  max-width: 40px;
   width: 100%;
-  min-height: 70px;
+  min-height: 40px;
   background-color: #647b8c;
   margin: 0 20px 0 0;
+}
+
+@media screen and (max-width: 768px) {
+  .price__square {
+    top: 10%;
+    right: 70px;
+  }
 }
