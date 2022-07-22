@@ -1,7 +1,7 @@
 @import url(./vendor/normalize.css);
 @import url(./vendor/fonts/stylesheet.css);
-@import url(./styles/team.css?1);
-@import url(./styles/price.css?1);
+@import url(./styles/team.css?2);
+@import url(./styles/price.css?2);
 
 .page {
   position: relative;
@@ -169,7 +169,7 @@
 
 .info__texts-text {
   font-size: 27px;
-  margin: 0;
+  margin: 10px 0 0 0;
 }
 
 @media screen and (max-width: 1024px) {
@@ -191,6 +191,10 @@
   list-style-type: none;
   margin: 50px 0;
   padding: 0;
+}
+
+.price__container .info__texts-list {
+  margin-top: 20px;
 }
 
 
@@ -232,10 +236,12 @@
   max-width: 655px;
   width: 100%;
   min-height: 885px;
-  background-image: url(../../images/anna.png);
-  background-size: contain;
+  background-image: url(../../images/anna.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  border: 7px solid #647b8c;
+  margin: 20px 0;
 }
 
 @media screen and (max-width: 1024px) {
@@ -249,7 +255,7 @@
 @media screen and (max-width: 768px) {
   .info__image {
     max-width: 300px;
-    min-height: 600px;
+    min-height: 500px;
   }
 }
 
@@ -257,48 +263,9 @@
   .info__image {
     max-width: 300px;
     min-height: 400px;
-    border: 7px solid #647b8c;
+
   }
 }
-
-
-.info__image-shadow {
-  max-width: 655px;
-  width: 100%;
-  min-height: 885px;
-  background-image: url(../../images/anna-shadow.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: 30px;
-}
-
-@media screen and (max-width: 1024px) {
-  .info__image-shadow {
-    max-width: 400px;
-    min-height: 700px;
-    background-position: -12px;
-  }
-}
-
-
-@media screen and (max-width: 768px) {
-  .info__image-shadow {
-    max-width: 300px;
-    min-height: 600px;
-  }
-}
-
-@media screen and (max-width: 620px) {
-  .info__image-shadow {
-    max-width: 300px;
-    min-height: 400px;
-    background-position: 30px;
-    margin-top: 20px;
-  }
-}
-
-
-
 
 .info__ellipse {
   max-width: 320px;

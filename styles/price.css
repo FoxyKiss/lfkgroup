@@ -14,6 +14,7 @@
   position: relative;
   width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   background: url(../images/layer.png);
   background-size: cover;
@@ -24,6 +25,19 @@
 @media screen and (max-width: 768px) {
   .price__container {
     padding: 30px;
+
+  }
+}
+
+.price__container-title {
+  color: #647b8c;
+  font-size: 35px;
+  margin: 0;
+}
+
+@media screen and (min-width: 1281px) {
+  .price__container-title {
+    font-size: 45px;
   }
 }
 
@@ -33,6 +47,7 @@
   flex-direction: column;
   gap: 20px;
   font-size: 27px;
+  margin-top: 0;
 }
 
 .price__container-list-item {
