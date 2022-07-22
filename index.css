@@ -257,6 +257,7 @@
   .info__image {
     max-width: 300px;
     min-height: 400px;
+    border: 7px solid #647b8c;
   }
 }
 
